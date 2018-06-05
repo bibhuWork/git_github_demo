@@ -89,8 +89,8 @@ Date:   Thu May 31 21:17:36 2018 -0400
     Pushing files from server to GitHUB
 
 
-git rm --cached FileName
-git log --oneline
-git log FileName
-git log since_commit_id..until_commit_id
-git log -n 3 : last 3 commits
+git rm --cached FileName ,
+git log --oneline ,
+git log FileName ,
+git log since_commit_id..until_commit_id , 
+git log -n 3 : last 3 commits ,
