@@ -1,10 +1,12 @@
 # git_github_demo
 
+```
 git init
 git clone <URL from GitHUB https://.... >
 
 $ git status -s
 ?? demo_Scripts/
+```
 
 ```
 $ git add demo_Scripts
