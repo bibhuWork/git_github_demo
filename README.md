@@ -6,6 +6,7 @@ git clone <URL from GitHUB https://.... >
 $ git status -s
 ?? demo_Scripts/
 
+```
 $ git add demo_Scripts
 $ git status
 On branch master
@@ -23,7 +24,7 @@ Changes to be committed:
 	new file:   demo_Scripts/userInput.py
 	new file:   demo_Scripts/variableTest.py
 	new file:   demo_Scripts/whileForLoop.py
-
+```
 $ git commit -m "Pushing demo_Scripts"
 [master fd2793a] Pushing demo_Scripts
  10 files changed, 303 insertions(+)
