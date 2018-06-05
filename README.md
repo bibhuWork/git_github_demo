@@ -93,4 +93,4 @@ git rm --cached FileName ,
 git log --oneline ,
 git log FileName ,
 git log since_commit_id..until_commit_id , 
-git log -n 3 : last 3 commits ,
+git log -n 3 : last 3 commits 
