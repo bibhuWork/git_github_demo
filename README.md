@@ -1,11 +1,13 @@
 # git_github_demo
-
+```
 git init
 git clone <URL from GitHUB https://.... >
-
+```
+```
 $ git status -s
 ?? demo_Scripts/
-
+```
+```
 $ git add demo_Scripts
 $ git status
 On branch master
@@ -23,7 +25,7 @@ Changes to be committed:
 	new file:   demo_Scripts/userInput.py
 	new file:   demo_Scripts/variableTest.py
 	new file:   demo_Scripts/whileForLoop.py
-
+```
 $ git commit -m "Pushing demo_Scripts"
 [master fd2793a] Pushing demo_Scripts
  10 files changed, 303 insertions(+)
@@ -37,12 +39,15 @@ $ git commit -m "Pushing demo_Scripts"
  create mode 100644 demo_Scripts/userInput.py
  create mode 100644 demo_Scripts/variableTest.py
  create mode 100644 demo_Scripts/whileForLoop.py
+```
+```
 $ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 nothing to commit, working directory clean
-
+```
+```
 $ git pull origin master
 remote: Counting objects: 2, done.
 remote: Compressing objects: 100% (2/2), done.
@@ -56,8 +61,8 @@ Fast-forward
  formatOutput.py | 30 ------------------------------
  1 file changed, 30 deletions(-)
  delete mode 100644 formatOutput.py
-
-
+```
+```
 $ git push origin master
 Username for 'https://github.com': bibhuWork
 Password for 'https://bibhuWork@github.com': 
@@ -68,7 +73,8 @@ Writing objects: 100% (13/13), 3.36 KiB | 0 bytes/s, done.
 Total 13 (delta 0), reused 0 (delta 0)
 To https://github.com/bibhuWork/git_github_demo.git
    09d92c3..fd2793a  master -> master
-
+```
+```
 $ git log
 commit fd2793a651d3f3a76cf0d776bdcd808be6f4d086
 Author: Bibhudatta Sarangi <simply.bibhu@gmail.com>
@@ -87,10 +93,11 @@ Author: Bibhudatta Sarangi <simply.bibhu@gmail.com>
 Date:   Thu May 31 21:17:36 2018 -0400
 
     Pushing files from server to GitHUB
-
-
+```
+```
 git rm --cached FileName ,
 git log --oneline ,
 git log FileName ,
 git log since_commit_id..until_commit_id , 
 git log -n 3 : last 3 commits 
+```
